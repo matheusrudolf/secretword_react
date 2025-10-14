@@ -14,7 +14,7 @@ const Game = ({ verifyLetter }) => {
         <span className="letter">A</span>
         <span className="blankSquare"></span>
       </div>
-      <div className="wordContainer">
+      <div className="letterContainer">
         <p>Tente advinhar uma letra da palavra:</p>
         <form>
           <input type="text" name="letter" maxLength="1" required />
